@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #fce4ec;
+    color: #6a1b9a;
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /* Tamaño de letra general */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+}
+
+p {
+    font-family: 'Playwrite IT Moderna', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    width: 80%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ba68c8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
